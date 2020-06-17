@@ -1,4 +1,4 @@
-# Why Double Buffering?
+# Why use double buffer?
 
 the reason is exactly what you are seeing.
 
