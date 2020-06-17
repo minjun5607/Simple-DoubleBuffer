@@ -1,5 +1,5 @@
 # Why Double Buffering?
--------------
+
 the reason is exactly what you are seeing.
 
 If you do not use double buffer there will always be a period of time at which the screen data is not there.
@@ -7,7 +7,7 @@ It does not matter how fast you clear the screen, you will always notice flicker
 With double buffering you essentially have 2 screens.
 
 # How to use double buffer
--------------
+
 I used a method called 'page flipping'.
 
 **1. Console::CreatBuffer()**
