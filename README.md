@@ -13,7 +13,7 @@ I used a method called 'page flipping'.
 **1. Console::CreatBuffer()**
 It creates two Console screen buffer. One is the front buffer and the other is the back buffer.
 
-**2. Console::WriteBuffer(const char* fmt, ...)**
+**2. Console::WriteBuffer(const char`*` fmt, ...)**
 It writes one line for one call. \n is not necessary.
 If you've called CreateBuffer(), it doesn't matter how many times you've called.
   
