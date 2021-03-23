@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <Windows.h>
-#include "DoubleBuffer.h"
+#include "DoubleBuffer.hpp"
 
 int main()
 {
